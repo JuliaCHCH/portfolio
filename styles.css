@@ -1,0 +1,74 @@
+/* Body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    color: rgb(33, 37, 41);  
+}
+
+img {
+    border-radius: 10px;
+}
+/* End */
+
+/* Navigation Bar */
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+#darkModeToggle .icon-light, #darkModeToggle .icon-dark {
+    display: none !important;
+}
+
+#darkModeToggle .icon-light.active, #darkModeToggle .icon-dark.active {
+    display: inline-block !important;
+}
+
+.btn-light:hover {
+    color: grey !important;
+}
+/* End */
+  
+/* Interest */
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(59, 50, 50, 0.25);
+}
+/* End */
+
+/* Presentation */
+.carousel-inner img {
+    max-width: 75%; /* Adjust the width */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 0 auto; /* Center the image */
+}
+
+.carousel-indicators button {
+    border-color: #fff; 
+}
+
+.caption-styling {
+    color: white; /* Ensures text is legible against the dim background */
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+/* End */
+
+/* Footer */
+footer p {
+    text-align: center;
+    margin-top: 20px;
+} 
+/* End */
